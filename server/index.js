@@ -53,7 +53,7 @@ app.get('/api/places', async (req, res) => {
         res.status(500).send('Error fetching data from Google Places API');
     }
 });
-
+//port
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
